@@ -9,5 +9,5 @@ class TestToken:
             _ = Token()
 
     def test_variable_token_creating(self) -> None:
-        token = VariableToken((0, 1))
+        token = VariableToken('test')
         assert isinstance(token, Token)
